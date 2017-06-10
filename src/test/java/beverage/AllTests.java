@@ -1,3 +1,6 @@
+package beverage;
+
+
 import junit.framework.TestSuite;
 
 /**
@@ -6,9 +9,7 @@ import junit.framework.TestSuite;
 public class AllTests {
     public static TestSuite suite(){
         TestSuite suite = new TestSuite();
-        suite.addTest(simuduck.AllTests.suite());
-        suite.addTest(weather.AllTests.suite());
-        suite.addTest(beverage.AllTests.suite());
+        suite.addTestSuite(BeverageTest.class);
         return suite;
     }
 }
