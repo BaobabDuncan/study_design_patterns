@@ -10,6 +10,7 @@ public class AllTests {
         suite.addTest(weather.AllTests.suite());
         suite.addTest(beverage.AllTests.suite());
         suite.addTest(pizza.AllTests.suite());
+        suite.addTest(chocolate.AllTests.suite());
         return suite;
     }
 }
