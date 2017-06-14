@@ -11,6 +11,12 @@ public class AllTests {
         suite.addTest(beverage.AllTests.suite());
         suite.addTest(pizza.AllTests.suite());
         suite.addTest(chocolate.AllTests.suite());
+
+
+
+
+
+        suite.addTest(remote.AllTests.suite());
         return suite;
     }
 }
