@@ -1,11 +1,12 @@
 package menu;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  * Created by Administrator on 2017-06-18.
  */
-public class PancakeHouseMenu {
+public class PancakeHouseMenu implements Menu{
 
     ArrayList menuItems;
 
@@ -27,6 +28,6 @@ public class PancakeHouseMenu {
 //    }
 
     public Iterator createIterator() {
-        return new PancakeHouseMenuIterator(menuItems);
+        return menuItems.iterator();
     }
 }

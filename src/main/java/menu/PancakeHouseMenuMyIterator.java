@@ -5,10 +5,10 @@ import java.util.ArrayList;
 /**
  * Created by Administrator on 2017-06-26.
  */
-public class PancakeHouseMenuIterator implements Iterator {
+public class PancakeHouseMenuMyIterator implements MyIterator {
     ArrayList items;
     int position = 0;
-    PancakeHouseMenuIterator(ArrayList items){
+    PancakeHouseMenuMyIterator(ArrayList items){
         this.items = items;
     }
 

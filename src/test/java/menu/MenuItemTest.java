@@ -31,7 +31,7 @@ public class MenuItemTest extends TestCase {
     }
 
     public void testWaitress(){
-        Waitress waitress = new Waitress(new PancakeHouseMenu(), new DinerMenu());
+        Waitress waitress = new Waitress(new PancakeHouseMenu(), new DinerMenu(), new CafeMenu());
         waitress.printMenu();
     }
 }
